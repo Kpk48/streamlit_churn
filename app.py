@@ -29,9 +29,9 @@ from imblearn.combine import SMOTEENN
 from scipy.stats import randint, uniform
 
 # Define paths for pre-trained model
-TRAIN_DATA_PATH = r"C:\Users\prave\Downloads\deployu\final_balanced_churn_train_10000.csv"
-TEST_DATA_PATH = r"C:\Users\prave\Downloads\deployu\final_balanced_churn_test_10000.csv"
-MODEL_PATH = r"C:\Users\prave\Downloads\deployu\pretrained_model.pkl"
+TRAIN_DATA_PATH = r"final_balanced_churn_train_10000.csv"
+TEST_DATA_PATH = r"final_balanced_churn_test_10000.csv"
+MODEL_PATH = r"pretrained_model.pkl"
 
 # Set page configuration
 st.set_page_config(
